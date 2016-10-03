@@ -11,14 +11,14 @@ Realiza un programa que nos diga cuántos dígitos tiene un número introducido 
             
         <?php
         
-        $num= 2000;
-        $contador= 0;
-       
-       while($num!=0) {
-        $num= $num /10;
+      $num = $_GET['num'];
+      $contador = 0;
+      do{
+        $num = floor($num/10);
         $contador++;
-       }
-       echo $contador;
+      }while($num != 0);
+      
+       echo "Tiene ", $contador , " digitos";
         
         ?>
     </body>

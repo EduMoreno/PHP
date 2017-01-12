@@ -5,7 +5,7 @@
   include '../View/Menu.php';
   
   //Listado de articulos
-  include '../View/Contenido.php';
+  include '../Controller/Contenido.php';
   
   //Pie de página
   include '../View/piedepagina.php';

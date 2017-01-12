@@ -122,7 +122,11 @@ nav {
   margin-bottom: 1%; }
     
 
-
+.page-header {
+	
+    border-bottom: 1px solid rgb(200, 200, 200)!important;
+    
+}
 .espaciado{
   margin-bottom: 400px;  
     
@@ -168,6 +172,12 @@ nav {
 	font-size: 0.95em;
 	font-style: italic;
 
+}
+
+.autor {
+    
+    text-align: right;
+    
 }
 
 .form {

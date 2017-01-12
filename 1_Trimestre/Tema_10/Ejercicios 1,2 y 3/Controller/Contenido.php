@@ -41,7 +41,7 @@ foreach ($data["articulos"] as $articulo) {
             </div>
             
             <form class="inline" action="../Controller/Modificar.php" method="post">
-                <input class="btn btn-primary" type="submit" value="Actualizar">
+                <input class="btn btn-primary" type="submit" value="Editar">
                 <input type="hidden" name="modificarId" value="<?=$articulo->getId()?>">
                 <input type="hidden" name="modificarTitulo" value="<?=$articulo->getTitulo()?>">
                 <input type="hidden" name="modificarArticulo" value="<?=$articulo->getArticulo()?>">

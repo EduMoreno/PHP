@@ -89,14 +89,14 @@ class Articulo {
             $this->fecha = $fecha;
         }
         
-        // Si la categoria no esta vacia ni es nulo, se lo asignamos como atributo
+        // Si la categoria no esta vacio ni es nulo, se lo asignamos como atributo
         if ($categoria !== "" && $categoria !== null) {
             $this->categoria = $categoria;
         }
         
     }
     
-    // Funcion alta que inserta un nuevo objeto a la base de datos
+    // Funcion insert que inserta un nuevo objeto a la base de datos
     public function alta() {
         // Establecemos conexion con la BD
         $conexion = blogDB::ConexionBD();

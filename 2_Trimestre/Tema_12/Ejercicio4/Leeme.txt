@@ -1,0 +1,6 @@
+Este servicio web puede recoger los datos tanto por el index.php como poniendo en la url de cartas.php la cantidad de cartas que se desea tirar
+
+Ejemplo de url:
+
+http://localhost/Tema_12/Ejercicio4/cartas.php?cantidad=20
+

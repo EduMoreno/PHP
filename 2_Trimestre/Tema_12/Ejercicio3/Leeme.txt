@@ -1,0 +1,6 @@
+Este servicio web puede recoger los datos tanto por el index.php como poniendo en la url de conversor.php la cantidad y la moneda a convertir
+
+Ejemplo de url:
+
+http://localhost/Tema_12/Ejercicio3/conversor.php?moneda=pesetas&cantidad=1000
+
